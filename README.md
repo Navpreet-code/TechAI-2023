@@ -1,4 +1,4 @@
-# 🤖 AI-Tech (2023) – AI-Based Web Application
+# 🤖 Tech-AI (2023) – AI-Based Web Application
 
 This project is a responsive AI-focused web application built during my 6-week industrial training using **Django (Python)**, **HTML**, **CSS**, and **Bootstrap**.  
 It is designed to provide users with a dynamic platform where they can access information related to **AI bills**, **AI companies**, **AI jobs**, and perform **expense analysis**. The project also features rich admin and user modules for managing **blogs**, **videos**, **AI tools**, and **initiatives**. The web app ensures smooth navigation and role-based content control, offering a real-world full stack experience focused on AI-based content interaction.

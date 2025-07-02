@@ -1,0 +1,86 @@
+{%extends 'Base.html' %}
+{%block content%}
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="{%static 'css/bootstrap.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{%static 'icofont/icofont.min.css' %}">
+	<style type="text/css">
+	body {overflow-x: hidden;}
+	.log{border:2px solid #8fffec;; color: white; margin-left: 5px}
+	.log:hover{background-color:#8fffec; color: white; margin-left: 5px}
+</style>
+	<style type="text/css">
+		.b1{background-color: #4569E7; color: whitesmoke;}
+		.b1:hover{background-color:cyan;}
+	</style>
+</head>
+<body>
+	<div class="row  pt-5 pb-5 text-center text-light" style="background-image: url({%static 'images/banner-bg.png' %}); font-family:30px green grotesk;">
+	<div class="col-12">
+		<h1>CONTACT US</h1>
+		<p>Home / Contact Us</p>
+	</div>
+</div>
+
+<!--  -->
+<div class="container pt-5 pb-5">
+<div class="row">
+	<div class="col-6 pt-5 bg-white p-5" style="border-radius: 50px">
+		<h1>Have Something In Mind?</h1>
+		<h1>Let's Talk</h1>
+		<p>Hello I am Tech AI. How Can I Help You?</p>
+		<div class="row">
+			<div class="col-1"></div>
+			<div class="col-5">
+				<div class="card bg-light shadow">
+  <div class="card-body text-center">
+  	<i class="icofont-email icofont-3x  text-primary"></i>
+  	<br/>
+    <h5>Email ID</h5>
+    <p>navpreetsingh46412@gmail.com</p>
+  </div>
+</div>
+			</div>
+			
+			<div class="col-5">
+				<div class="card bg-light shadow">
+  <div class="card-body text-center">
+    <i class="icofont-ui-call icofont-3x text-primary"></i>
+    <br/>
+    <h5>Phone</h5>
+    <p>0987654321</p>
+  </div>
+</div>
+			</div>
+			<div class="col-1"></div>
+		</div>
+	</div>
+	<div class="col-6 pt-5 bg-white p-5 shadow-lg" style="border-radius: 50px;">
+		<form method="POST" action="">
+			{% csrf_token %}
+			<p>{{Success}}</p>
+			<h2>CONTACT NOW</h2>
+			<br/><br/>
+			<input type="text" placeholder="Enter Name" class= "form-control rounded-0" name="nm"></br>
+			<input type="email" placeholder="Enter Email" class= "form-control rounded-0" name="em"></br>
+			<select class="form-select rounded-0" name="s1" aria-label="Default select example">
+  <option selected>Select Subject</option>
+  <option value="1">AI Bills</option>
+  <option value="2">AI Companies</option>
+  <option value="3">AI Jobs</option>
+  <option value="3">AI Expenses</option>
+</select></br>
+			<input type="text" placeholder="Write A Message" class="form-control rounded-0"name="msg"></br>
+			<center><button type="submit " class="btn btn-lg rounded-pill ps-5 pe-5 b1" style="">Submit</button></center>
+		</form>
+</div>
+</div>
+</div>
+</body>
+</html>
+{%endblock %}

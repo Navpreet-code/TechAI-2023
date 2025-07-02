@@ -1,0 +1,32 @@
+{%extends 'Base.html' %}
+{%block content%}
+{%load static%}
+
+<style>body {overflow-x: hidden;}</style>
+<div class="row  pt-5 pb-5 text-center text-light" style="background-image: url({%static 'images/banner-bg.png' %}); font-family:30px green grotesk;">
+  <div class="col-12">
+    <h1>BLOGS</h1>
+    <p>Home / Blogs</p>
+  </div>
+</div>
+
+
+<div class="container" style="">
+	<div class="row">
+{% for i in data %}
+
+<div class="col-md-4 mt-5">
+	<div class="card shadow" style="width: 22rem;">
+  <img src="{{i.Image.url}}" class="card-img-top" alt="images" height="210px">
+  <div class="card-body">
+    <h5 class="card-title">{{i.Name|truncatechars:60}}</h5>
+    <p class="card-text">{{i.Description|truncatechars:100}}</p>
+    <center><a href="{% url 'DetailBlog' id=i.id %}" target="_blank" class="btn btn-lg rounded-pill ps-5 pe-5 b1" style="background-color:#8fffec"><b>View Detail</b></a></center>
+</div>
+</div>
+</div>
+{% endfor %}
+</div>
+</div>
+<br><br>
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends 'Sidebar.html' %}
+{% block content %}
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+		<link rel="stylesheet" type="text/css" href="{%static 'css/bootstrap.min.css' %}">
+	<style type="text/css">
+		body {overflow-x: hidden;}
+		.b1{background-color: #4569E7; color: whitesmoke;}
+		.b1:hover{background-color:cyan;}
+		a{text-decoration: none;}
+	</style>
+</head>
+<body>
+	<div class="row pb-5">
+	<div class="col-3"></div>
+	<div class="col-6 pt-5 bg-white p-5 shadow-lg" style="border-radius: 50px;">
+		<form method="POST" action="">
+			{% csrf_token %}
+			<p>{{Success}}</p>
+			<h2>EDIT PROFILE</h2>
+			<br/>
+			<h5>NAME</h5>
+			<input type="text" placeholder="Name" value="{{user.Name}}" class= "form-control rounded-0"name="nm"><br>
+			<div class="row">
+				<div class="col-6">
+			<h5>AGE</h5>
+			<input type="text" placeholder="Age"  value="{{user.Age}}" class= "form-control rounded-0"name="age">
+			<br></div>
+			<div class="col-6">
+			<h5>GENDER</h5>
+			<input type="text" placeholder="Gender"  value="{{user.Gender}}" class= "form-control rounded-0"name="gd"><br></div>
+		</div>
+			<h5>DATE OF BIRTH</h5>
+			<input type="text" placeholder="DOB"  value="{{user.DOB}}" class= "form-control rounded-0"name="dob"><br>
+			<h5>PHONE NO</h5>
+			<input type="text" placeholder="PhoneNo"  value="{{user.PhoneNo}}" class= "form-control rounded-0"name="pn"><br>
+			<center><button type="submit" class="btn btn-lg rounded-pill ps-5 pe-5 b1" style="">Submit</button></center>
+		</form>
+</div>
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,27 @@
+{%extends 'Base.html' %}
+{%block content%}
+{%load static%}
+
+<style>body {overflow-x: hidden;}</style>
+<div class="row  pt-5 pb-5 text-center text-light" style="background-image: url({%static 'images/banner-bg.png' %}); font-family:30px green grotesk;">
+  <div class="col-12">
+    <h1>VIDEOS</h1>
+    <p>Home / Videos</p>
+  </div>
+</div>
+
+<div class="container" style="">
+  <div class="row">
+{% for i in data %}
+<div class="col-md-6 shadow p-5">
+  <video src="{{i.Video.url}}" controls width="100%"></video>
+    <h4 class="text-center pt-4 text-primary">{{i.Title}}</h4>
+      </div>
+     
+
+{% endfor %}
+
+</div>
+</div>
+ <br><br>
+{% endblock %}

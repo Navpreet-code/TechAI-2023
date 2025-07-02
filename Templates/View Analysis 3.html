@@ -1,0 +1,56 @@
+{%extends 'Sidebar.html' %}
+{%block content%}
+{%load static%}
+
+<style>body {overflow-x: hidden;}</style>
+<div class="row pt-3 pb-5 text-center text-dark" >
+  <div class="col-12" style="font-size:35px;">
+    <h1>ANALYSIS ON AI JOB POSTINGS</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailJobAnalysis1' %}"  class="card-title text-dark text-center" style="font-size:25px;">AI Job Postings in Countries in All Years.</a></center>
+</div>
+</div>
+&emsp;
+  <div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailJobAnalysis2' %}"  class="card-title text-dark text-center" style="font-size:25px;">AI Job Postings in a Specific Country.</a></center>
+</div>
+</div>
+&emsp; 
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailJobAnalysis3' %}"  class="card-title text-dark text-center" style="font-size:25px;">AI Job Postings in Two Countries in All Years.</a></center>
+</div>
+</div>
+&emsp;
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailJobAnalysis4' %}"  class="card-title text-dark text-center" style="font-size:25px;">AI Job Postings in Three Countries in all Years.</a></center>
+</div>
+</div>
+&emsp;
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailJobAnalysis5' %}"  class="card-title text-dark text-center" style="font-size:25px;">AI Job Postings in a Country From Starting Year To Ending Year.</a></center>
+</div>
+</div>
+&emsp;
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailJobAnalysis6' %}"  class="card-title text-dark text-center" style="font-size:25px;">AI Job Postings in Two Countries From Starting Year To Ending Year.</a></center>
+</div>
+</div>
+&emsp;
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailJobAnalysis7' %}"  class="card-title text-dark text-center" style="font-size:25px;">World Map Of AI Job Postings All Over The World.</a></center>
+</div>
+</div>
+&emsp;
+
+{% endblock %}

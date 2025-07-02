@@ -1,0 +1,37 @@
+{% extends 'Sidebar.html' %}
+{% block content %}
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="{%static 'css/bootstrap.min.css' %}">
+	<style type="text/css">
+		body {overflow-x: hidden;}
+		.b1{background-color: #4569E7; color: whitesmoke;}
+		.b1:hover{background-color:cyan;}
+		a{text-decoration: none;}
+	</style>
+</head>
+<body>
+	<div class="row pb-5 ">
+	<div class="col-3"></div>
+	<div class="col-6 pt-5 bg-white p-5 shadow-lg" style="border-radius: 50px;">
+		<form method="POST" action="">
+			{% csrf_token %}
+			<p>{{Success}}</p>
+			<h2>Help And Support</h2>
+			<br/>
+			<h5>Title</h5>
+			<input type="text" placeholder="Title" class= "form-control rounded-0"name="ti"><br>
+			<h5>Message Box</h5>
+			<textarea class="form-control rounded-0 " rows="5" name="msg" placeholder="Write A Message"></textarea>
+			<br>
+			<center><button type="submit" class="btn btn-lg rounded-pill ps-5 pe-5 b1" style="">Submit</button></center>
+		</form>
+</div>
+</body>
+</html>
+{% endblock %}

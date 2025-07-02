@@ -1,0 +1,28 @@
+{%extends 'Base.html' %}
+{%block content%}
+{%load static%}
+
+<style>body {overflow-x: hidden;}</style>
+<div class="row  pt-5 pb-5 text-center text-light" style="background-image: url({%static 'images/banner-bg.png' %}); font-family:30px green grotesk;">
+	<div class="col-12">
+		<h1>FAQ</h1>
+		<p>Home / FAQ</p>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			{% for i in data %}
+			<details class="border text-light p-2 mt-3 shadow rounded" style="background-color:#17233c";>
+				<summary class="text-light fs-4">{{i.Ques}}</summary>
+				<p class="border-top p-3">{{i.Ans}}</p>
+
+</details>
+{% endfor %}
+</div>
+</div>
+</div>	
+<br><br>
+
+{% endblock %}

@@ -1,0 +1,55 @@
+{%extends 'Sidebar.html' %}
+{%block content%}
+{%load static%}
+
+<style>body {overflow-x: hidden;}</style>
+<div class="row pt-3 pb-5 text-center text-dark" >
+  <div class="col-12" style="font-size:35px;">
+    <h1>ANALYSIS ON WORLD DEVELOPMENT INDEX</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailExpensesAnalysis1' %}" class="card-title text-dark text-center" style="font-size:25px;">World Development Index Map.</a></center>
+</div>
+</div>
+&emsp;
+  <div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailExpensesAnalysis2' %}" class="card-title text-dark text-center" style="font-size:25px;">World Development Index Of All Countries in a Particular Year From Minimum To Maximum.</a></center>
+</div>
+</div>
+&emsp; 
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailExpensesAnalysis3' %}" class="card-title text-dark text-center" style="font-size:25px;">World Development Index Of All Countries in a Particular Year From Maximum To Minimum.</a></center>
+</div>
+</div>
+&emsp;
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailExpensesAnalysis4' %}" class="card-title text-dark text-center" style="font-size:25px;">World Development Index Of a Country.</a></center>
+</div>
+</div>
+&emsp;
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailExpensesAnalysis5' %}" class="card-title text-dark text-center" style="font-size:25px;">World Development Index Of Countries in a Year From Minimum To Maximum..</a></center>
+</div>
+</div>
+&emsp;
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailExpensesAnalysis6' %}" class="card-title text-dark text-center" style="font-size:25px;">World Development Index Of Countries in a Year From Maximum To Minimum.</a></center>
+</div>
+</div>
+&emsp;
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailExpensesAnalysis7' %}" class="card-title text-dark text-center" style="font-size:25px;">World Development Index Of Three Countries.</a></center>
+</div>
+</div>
+&emsp;
+{% endblock %}

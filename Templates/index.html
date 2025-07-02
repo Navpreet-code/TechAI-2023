@@ -1,0 +1,305 @@
+{%extends 'Base.html' %}
+{%block content%}
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="{%static 'css/bootstrap.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{%static 'icofont/icofont.min.css' %}">
+	<style type="text/css">
+		body {overflow-x: hidden;}
+	.log{border:2px solid #8fffec;; color: white; margin-left: 5px}
+	.log:hover{background-color:#8fffec; color: white; margin-left: 5px}
+</style>
+
+	<style type="text/css">
+		.grad{background: linear-gradient(90deg, #8fffec 0%, #4569e7 95.62%);}
+	</style>
+</head>
+<body>
+		<section class="s1" style="background-color:#111827;">
+			<div style="background-image:url({%static 'images/banner-one-bg.png' %});">
+		<div class="container pt-5 pb-5">
+			<div class="row">
+	<div class="col-md-6 text-light p-5" style="border-radius: 50px">
+		<span class="bg-primary badge" style="font-size:18px;">AI Voice</span>
+		<span class="" style="font-size:18px;">Generator And Text to Speech</span>
+		<h1 class="" style="font-size:70px;">Your Complete Generative Voice AI Toolkit</h1>
+	</div>
+	<div class="col-md-6 text-light p-5" style="border-radius: 50px">
+			<img src="{%static 'images/banner-one-thumb.png' %}" alt="image">
+		</div>
+	</div>
+</div>
+</div>
+</section>
+<!-- first section end -->
+
+<!-- secind section start -->
+		<section class="s1" style="background-color:#111827;">
+		<div class="container pt-5 pb-5">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="card text-light" style="background-color:#17233c">
+					  <div class="card-body" style="font-size: 22px;">
+					    <img src="{%static 'images/p1.png' %}"> AI Bills
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card text-light" style="background-color:#17233c">
+					  <div class="card-body" style="font-size: 22px;">
+					    <img src="{%static 'images/p2.png' %}"> AI Companies
+				</div>
+			</div>
+		</div>
+				<div class="col-md-3">
+					<div class="card text-light" style="background-color:#17233c">
+					  <div class="card-body" style="font-size: 22px;">
+					    <img src="{%static 'images/p3.png' %}">AI Jobs
+				</div>
+			</div>
+		</div>
+				<div class="col-md-3">
+					<div class="card text-light" style="background-color:#17233c">
+					  <div class="card-body" style="font-size: 22px;">
+					    <img src="{%static 'images/p4.png' %}">AI Expenses
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Section-2 End -->
+
+<!-- Section-3 Start -->
+		<section class="s1" style="background-color:#111827;">
+		<div class="row">
+		<div class="row">
+			<div class="col-md-12 text-light text-center p-5" style="border-radius: 50px">
+				<center><h1 class="" style="font-size:40px;">BLOGS</h1></center>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section-3 End -->
+
+<!-- Section-4 Start -->
+		<section class="s1" style="background-color:#111827;">
+<div class="container" style="">
+	<div class="row">
+{% for i in data %}
+	{% if forloop.counter <= 3%}
+<div class="col-md-4 ">
+	<div class="card shadow" style="width: 22rem;">
+  <img src="{{i.Image.url}}" class="card-img-top" alt="images" height="210px">
+  <div class="card-body">
+    <h5 class="card-title">{{i.Name|truncatechars:60}}</h5>
+    <p class="card-text">{{i.Description|truncatechars:100}}</p>
+    <center><a href="{% url 'DetailBlog' id=i.id %}" target="_blank" class="btn btn-lg rounded-pill ps-5 pe-5 b1" style="background-color:#8fffec"><b>View Detail</b></a></center>
+
+  </div>
+</div>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+</div></section>
+<!-- Section-4 End -->
+
+<!-- Section-5 Start -->
+		<section class="s1" style="background-color:#111827" >
+		<div class="container pt-5 pb-5">
+			<div class="row p-5" style="background-image:url({%static 'images/sponsor.png' %}); border-radius: 50px;">
+				<div class="col-md-12 text-light">
+					<center><h3>Trusted By Users And Teams Of All Sizes</h3></center><br/><br/>
+				</div>
+				<marquee>
+					<img src="{%static 'images/samsung.png' %}" alt="image"> &emsp;&emsp;
+					<img src="{%static 'images/toyota.png' %}" alt="image">&emsp;&emsp;
+					<img src="{%static 'images/amazon.png' %}" alt="image">&emsp;&emsp;
+					<img src="{%static 'images/microsoft.png' %}" alt="image">&emsp;&emsp;&emsp;&emsp;
+					<img src="{%static 'images/netflix.png' %}" alt="image">&emsp;&emsp;
+				</marquee>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section-5 End -->
+
+<!-- Section-6 Start -->
+		<section class="s1" style="background-color:#111827" >
+		<div class="container pt-5 pb-5">
+		<div class="row">
+			<div class="col-md-12 text-light p-5" style="border-radius: 50px">
+					<center><h1 class="" style="font-size:40px;">Take A Quick Tour Of TechAI</h1></center>
+					<center><p class="" style="font-size:22px;">Watch This Video To Learn All About Our AI Voice Technology And How To Use It In Your Products.</p></center>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- Section-6 End -->
+
+<!-- Section-7 Start -->
+		<section class="s1" style="background-color:#111827" >
+		<div class="container pb-5">
+		<div class="row">
+		<div class="col-md-12" style="">
+				<video muted="" loop="" autoplay="" controls="" width="100%">
+                                    <source src="{%static 'images/video.mp4' %}" type="video/mp4"></video>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+<!-- Section-7 End -->
+
+<!-- Section-8 Start -->
+		<section class="s1" style="background-color:#111827" >
+		<div class="container pt-5">
+		<div class="row">
+			<div class="col-md-12 text-light p-5" style="border-radius: 50px">
+				<h1 class="" style="font-size:40px;">Tech AI Use Cases</h1>
+			</div>
+		</div>
+	</section>
+<!-- Section-8 End -->
+
+<!-- Section-9 Start -->
+		<section class="s1" style="background-color:#111827" >
+		<div class="container pb-5">
+		<div class="row">
+			<div class="col-md-4 text-light" style="border-radius: 50px">
+			<div class="card" style="background-color:#192337; width: 250px; border-color:#8fffec">
+  <div class="card-body">
+  	<i class="icofont-headphone-alt-3 icofont-2x bg-primary p-1 rounded-circle text-light"></i>
+    <h5 class="card-title text-light pt-3">Audio Article</h5>
+    <p class="text-light pt-3 pb-3">This article explores how AI is revolutionizing the audio industry, from enhancing speech recognition and noise cancellation to generating music and improving accessibility for the hearing impaired.</p>
+  </div>
+</div>
+</div> 
+<div class="col-md-4 text-light" style="border-radius: 50px">
+			<div class="card" style="background-color:#192337; width: 250px; border-color:#8fffec">
+  <div class="card-body">
+  	<i class="icofont-video icofont-2x bg-primary p-1 rounded-circle text-light"></i>
+    <h5 class="card-title text-light pt-3">Videos</h5>
+    <p class="text-light pt-3 pb-3">This article highlights the transformative effects of AI on video content, including advanced video analysis, and AI-generated content, leading to more engaging and personalized visual experiences.</p>
+  </div>
+</div></div>
+<div class="col-md-4 text-light" style="border-radius: 50px">
+			<div class="card" style="background-color:#192337; width:250px; border-color:#8fffec">
+  <div class="card-body">
+  	<i class="icofont-graduate icofont-2x bg-primary p-1 rounded-circle text-light"></i>
+    <h5 class="card-title text-light pt-3">E-Learning</h5>
+    <p class="text-light pt-3 pb-3">This article explores the powerful role of AI in e-learning, from personalized learning paths and intelligent tutoring systems and automated feedback, revolutionizing the educational experience.</p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section-9 End -->
+
+<!-- Section-10 Start -->
+<section class="s1" style="background-color:#111827" >
+	<div class="pt-2 pb-1">
+		<div class="container pt-5 pb-5">
+			<div class="row pt-4 pb-4" style="background-image:url('{%static 'images/broadcast-bg.png' %}');border-radius:50px;">
+				<div class="col-md-6 text-light p-5" style="border-radius:50px">
+					<img src="{%static 'images/broadcast-thumb.png' %}" alt="image">
+				</div>
+				<div class="col-md-6 text-light pb-5" style="border-radius:50px;">
+					<h1 class="center" style="font-size:45px;">Team Access For Collaboration</h1><br/>
+					<p class="text-light">AI Team Access for Collaboration is a collaborative approach that involves integrating AI technologies and expertise into a team's workflow to enhance productivity and problem-solving capabilities. By giving the team access to AI tools, data analysis, natural language processing, and other AI-based functionalities, members can work together more effectively, make data-driven decisions, and innovate across various projects. The collaboration between human team members and AI fosters a synergistic relationship, leading to improved outcomes, efficiency, and competitiveness in the team's endeavors.</p><br/>
+			<a href="{% url 'Register' %}" button type="button" class="btn  btn-outline-primary rounded-pill text-light ps-5 pe-5 b1" style="">Sign Up Now</button></a>
+						</div>
+		</section>
+<!-- Section-10 End -->
+
+<!-- Section-11 Start -->
+<section class="s1" style="background-color:#111827" >
+		<div class="container pt-5 pb-5">
+		<div class="row">
+			<div class="col-md-12 text-light p-5" style="border-radius:25px">
+			<center><h1 class="" style="font-size:40px;">Frequently Ask Question</h1></center>
+				</div>
+<!-- Section-11 End -->
+
+<!-- Section-12 Start -->
+<section class="s1" style="background-color:#111827" >
+	<div class="container">
+		<div class="row">
+	<div class="accordion" id="accordionExample">
+  <div class="accordion-item mt-3">
+    <h2 class="accordion-header">
+      <button class="accordion-button text-light p-5" type="button" style="background-color:#17233c;font-size:25px"  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What Is ChatGPT?</button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+      <div class="accordion-body text-light p-5" style="background-color:#17233c;font-size:18px">
+        <strong>Analyses The Speaker's Face And Gaze During A Video Conversation To Maintain Eye Contact Before Changing The Camera Position. Io At A Later Time. Clear, Consistent, And Professional Voices For Marketing, Explainer, Product, And YouTube Videos.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mt-3">
+    <h2 class="accordion-header">
+      <button class="accordion-button text-light p-5" type="button" style="background-color:#17233c;font-size:25px" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        What Formats Are The Files In?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-light p-5" style="background-color:#17233c;font-size:18px">
+        <strong>Analyses The Speaker's Face And Gaze During A Video Conversation To Maintain Eye Contact Before Changing The Camera Position. Io At A Later Time. Clear, Consistent, And Professional Voices For Marketing, Explainer, Product, And YouTube Videos.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mt-3">
+    <h2 class="accordion-header">
+      <button class="accordion-button text-light p-5" type="button" data-bs-toggle="collapse" style="background-color:#17233c;font-size:25px" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        What Is ChatGPT Used For?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-light p-5" style="background-color:#17233c;font-size:18px">
+        <strong>Analyses The Speaker's Face And Gaze During A Video Conversation To Maintain Eye Contact Before Changing The Camera Position. Io At A Later Time. Clear, Consistent, And Professional Voices For Marketing, Explainer, Product, And YouTube Videos.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mt-3">
+    <h2 class="accordion-header">
+      <button class="accordion-button text-light p-5" type="button" data-bs-toggle="collapse" style="background-color:#17233c;font-size:25px"data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+        How Can I Support This Site?
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-light p-5" style="background-color:#17233c;font-size:18px">
+        <strong>Analyses The Speaker's Face And Gaze During A Video Conversation To Maintain Eye Contact Before Changing The Camera Position. Io At A Later Time. Clear, Consistent, And Professional Voices For Marketing, Explainer, Product, And YouTube Videos.
+      </div>
+    </div>
+  </div>
+</strong>
+</div>
+</div>
+</div>
+</strong>
+</div>
+</div>
+</div>
+</strong>
+</div>
+</div>
+</div>
+</strong>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
+{%endblock %}

@@ -1,0 +1,232 @@
+Entity,Code,Year,number_new_cs_phds_by_specialty
+Artificial intelligence/machine learning,,2010,161
+Artificial intelligence/machine learning,,2011,159
+Artificial intelligence/machine learning,,2012,171
+Artificial intelligence/machine learning,,2013,138
+Artificial intelligence/machine learning,,2014,144
+Artificial intelligence/machine learning,,2015,138
+Artificial intelligence/machine learning,,2016,233
+Artificial intelligence/machine learning,,2017,218
+Artificial intelligence/machine learning,,2018,266
+Artificial intelligence/machine learning,,2019,286
+Artificial intelligence/machine learning,,2020,277
+Computing education,,2010,0
+Computing education,,2011,0
+Computing education,,2012,0
+Computing education,,2013,0
+Computing education,,2014,0
+Computing education,,2015,0
+Computing education,,2016,16
+Computing education,,2017,12
+Computing education,,2018,9
+Computing education,,2019,15
+Computing education,,2020,9
+Databases/information retrieval,,2010,73
+Databases/information retrieval,,2011,66
+Databases/information retrieval,,2012,99
+Databases/information retrieval,,2013,91
+Databases/information retrieval,,2014,113
+Databases/information retrieval,,2015,94
+Databases/information retrieval,,2016,87
+Databases/information retrieval,,2017,86
+Databases/information retrieval,,2018,84
+Databases/information retrieval,,2019,87
+Databases/information retrieval,,2020,85
+Graphics/visualization,,2010,73
+Graphics/visualization,,2011,93
+Graphics/visualization,,2012,77
+Graphics/visualization,,2013,80
+Graphics/visualization,,2014,87
+Graphics/visualization,,2015,82
+Graphics/visualization,,2016,83
+Graphics/visualization,,2017,78
+Graphics/visualization,,2018,84
+Graphics/visualization,,2019,68
+Graphics/visualization,,2020,64
+Hardware/architecture,,2010,46
+Hardware/architecture,,2011,44
+Hardware/architecture,,2012,57
+Hardware/architecture,,2013,57
+Hardware/architecture,,2014,69
+Hardware/architecture,,2015,56
+Hardware/architecture,,2016,54
+Hardware/architecture,,2017,56
+Hardware/architecture,,2018,37
+Hardware/architecture,,2019,38
+Hardware/architecture,,2020,31
+High performance computing,,2010,26
+High performance computing,,2011,34
+High performance computing,,2012,42
+High performance computing,,2013,50
+High performance computing,,2014,38
+High performance computing,,2015,44
+High performance computing,,2016,42
+High performance computing,,2017,56
+High performance computing,,2018,40
+High performance computing,,2019,35
+High performance computing,,2020,38
+Human-computer interaction,,2010,32
+Human-computer interaction,,2011,53
+Human-computer interaction,,2012,52
+Human-computer interaction,,2013,54
+Human-computer interaction,,2014,37
+Human-computer interaction,,2015,54
+Human-computer interaction,,2016,41
+Human-computer interaction,,2017,59
+Human-computer interaction,,2018,43
+Human-computer interaction,,2019,59
+Human-computer interaction,,2020,70
+Informatics: biomedical/other science,,2010,55
+Informatics: biomedical/other science,,2011,51
+Informatics: biomedical/other science,,2012,83
+Informatics: biomedical/other science,,2013,45
+Informatics: biomedical/other science,,2014,55
+Informatics: biomedical/other science,,2015,67
+Informatics: biomedical/other science,,2016,51
+Informatics: biomedical/other science,,2017,32
+Informatics: biomedical/other science,,2018,39
+Informatics: biomedical/other science,,2019,46
+Informatics: biomedical/other science,,2020,43
+Information science,,2010,6
+Information science,,2011,2
+Information science,,2012,10
+Information science,,2013,16
+Information science,,2014,5
+Information science,,2015,6
+Information science,,2016,8
+Information science,,2017,3
+Information science,,2018,11
+Information science,,2019,10
+Information science,,2020,7
+Information systems,,2010,14
+Information systems,,2011,16
+Information systems,,2012,27
+Information systems,,2013,15
+Information systems,,2014,37
+Information systems,,2015,20
+Information systems,,2016,10
+Information systems,,2017,18
+Information systems,,2018,18
+Information systems,,2019,14
+Information systems,,2020,36
+Networks,,2010,115
+Networks,,2011,112
+Networks,,2012,110
+Networks,,2013,116
+Networks,,2014,143
+Networks,,2015,78
+Networks,,2016,86
+Networks,,2017,90
+Networks,,2018,94
+Networks,,2019,68
+Networks,,2020,80
+Operating systems,,2010,55
+Operating systems,,2011,52
+Operating systems,,2012,65
+Operating systems,,2013,52
+Operating systems,,2014,60
+Operating systems,,2015,40
+Operating systems,,2016,50
+Operating systems,,2017,44
+Operating systems,,2018,50
+Operating systems,,2019,52
+Operating systems,,2020,57
+Other,,2010,71
+Other,,2011,59
+Other,,2012,106
+Other,,2013,95
+Other,,2014,87
+Other,,2015,96
+Other,,2016,111
+Other,,2017,70
+Other,,2018,66
+Other,,2019,66
+Other,,2020,76
+Programming languages/compilers,,2010,61
+Programming languages/compilers,,2011,42
+Programming languages/compilers,,2012,60
+Programming languages/compilers,,2013,50
+Programming languages/compilers,,2014,63
+Programming languages/compilers,,2015,68
+Programming languages/compilers,,2016,61
+Programming languages/compilers,,2017,45
+Programming languages/compilers,,2018,43
+Programming languages/compilers,,2019,30
+Programming languages/compilers,,2020,45
+Robotics/vision,,2010,55
+Robotics/vision,,2011,46
+Robotics/vision,,2012,68
+Robotics/vision,,2013,65
+Robotics/vision,,2014,74
+Robotics/vision,,2015,76
+Robotics/vision,,2016,72
+Robotics/vision,,2017,75
+Robotics/vision,,2018,66
+Robotics/vision,,2019,91
+Robotics/vision,,2020,83
+Scientific/numerical computing,,2010,27
+Scientific/numerical computing,,2011,21
+Scientific/numerical computing,,2012,23
+Scientific/numerical computing,,2013,25
+Scientific/numerical computing,,2014,13
+Scientific/numerical computing,,2015,21
+Scientific/numerical computing,,2016,19
+Scientific/numerical computing,,2017,10
+Scientific/numerical computing,,2018,17
+Scientific/numerical computing,,2019,15
+Scientific/numerical computing,,2020,7
+Security/information assurance,,2010,57
+Security/information assurance,,2011,72
+Security/information assurance,,2012,54
+Security/information assurance,,2013,59
+Security/information assurance,,2014,73
+Security/information assurance,,2015,63
+Security/information assurance,,2016,92
+Security/information assurance,,2017,101
+Security/information assurance,,2018,98
+Security/information assurance,,2019,85
+Security/information assurance,,2020,93
+Social computing/social informatics/CSCW,,2010,24
+Social computing/social informatics/CSCW,,2011,21
+Social computing/social informatics/CSCW,,2012,18
+Social computing/social informatics/CSCW,,2013,28
+Social computing/social informatics/CSCW,,2014,22
+Social computing/social informatics/CSCW,,2015,43
+Social computing/social informatics/CSCW,,2016,13
+Social computing/social informatics/CSCW,,2017,14
+Social computing/social informatics/CSCW,,2018,18
+Social computing/social informatics/CSCW,,2019,27
+Social computing/social informatics/CSCW,,2020,26
+Software engineering,,2010,96
+Software engineering,,2011,113
+Software engineering,,2012,117
+Software engineering,,2013,103
+Software engineering,,2014,123
+Software engineering,,2015,138
+Software engineering,,2016,111
+Software engineering,,2017,102
+Software engineering,,2018,90
+Software engineering,,2019,61
+Software engineering,,2020,96
+Theory and algorithms,,2010,86
+Theory and algorithms,,2011,102
+Theory and algorithms,,2012,104
+Theory and algorithms,,2013,87
+Theory and algorithms,,2014,78
+Theory and algorithms,,2015,72
+Theory and algorithms,,2016,84
+Theory and algorithms,,2017,76
+Theory and algorithms,,2018,78
+Theory and algorithms,,2019,100
+Theory and algorithms,,2020,92
+Total,,2010,1133
+Total,,2011,1158
+Total,,2012,1343
+Total,,2013,1226
+Total,,2014,1321
+Total,,2015,1256
+Total,,2016,1324
+Total,,2017,1245
+Total,,2018,1251
+Total,,2019,1253
+Total,,2020,1315

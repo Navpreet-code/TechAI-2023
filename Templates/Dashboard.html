@@ -1,0 +1,39 @@
+{%extends 'Sidebar.html' %}
+{%block content%}
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="{%static 'css/bootstrap.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{%static 'icofont/icofont.min.css' %}">
+    <style type="text/css">
+      body {overflow-x: hidden;}
+    .a{text-decoration: none ;}
+  </style>
+</head>
+<body>
+  <h2 style="text-align: center; font-size: 40px; color: orange;" class="pt-3 pb-4">Welcome to Dashboard</h2>
+  
+    <div class="row">
+        <div class="col-md-6">
+        <img src="{%static 'images/Artificial 1.gif' %}" class=""  width="100%" height="400px">
+      </div>
+  
+<div class="col-md-6">
+        <img src="{%static 'images/Artificial 2.gif' %}" class="" width="100%" height="400px">
+      </div>
+    </div>
+    
+      <!-- <div class="col-md-6">
+        <img src="{%static 'images/Artificial 3.gif' %}" class="" height="300px" width="220px">
+      </div> -->
+    </div>
+  </div>
+       
+
+</body>
+</html>
+{%endblock %}

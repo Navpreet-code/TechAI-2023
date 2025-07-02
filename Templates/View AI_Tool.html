@@ -1,0 +1,21 @@
+{%extends 'Sidebar.html' %}
+{%block content%}
+{%load static%}
+
+<style>body {overflow-x: hidden;}</style>
+<div class="container" style="">
+	<div class="row">
+{% for i in data %}
+
+<div class="col-md-4 mt-5">
+  <div class="card-body shadow" style="background-color:#f8b739 ;">
+     <a href="{% url 'DetailAITool' name=i.category_name %}" class="text-decoration-none text-dark">
+    <h5 class="card-title text-dark text-center">{{i.category_name|title}}</h5></a>
+</div>
+</div>
+
+{% endfor %}
+</div>
+</div>
+
+{% endblock %}

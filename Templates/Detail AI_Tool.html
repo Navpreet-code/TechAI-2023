@@ -1,0 +1,26 @@
+{%extends 'Sidebar.html' %}
+{%block content%}
+{%load static%}
+
+<style>body {overflow-x: hidden;}</style>
+<div class="container" style="">
+	<div class="row">
+{% for i in data %}
+
+<div class="col-md-4 mt-5">
+	<div class="card shadow" style="width: 22rem;">
+  <img src="{{i.tool_Image.url}}" class="card-img-top" alt="images" height="210px">
+  <div class="card-body">
+    <h5 class="card-title">{{i.tool_Name}}</h5>
+    <p class="card-text">{{i.tool_Description|truncatechars:100}}</p>
+    <a href="{% url 'DetailAITool2' id=i.id %}" class="btn btn-primary">Read More</a>
+  </div>
+</div>
+</div>
+
+{% endfor %}
+
+</div>
+</div>
+
+{% endblock %}

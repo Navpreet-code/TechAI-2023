@@ -1,0 +1,55 @@
+{%extends 'Sidebar.html' %}
+{%block content%}
+{%load static%}
+
+<style>body {overflow-x: hidden;}</style>
+<div class="row pt-3 pb-5 text-center text-dark" >
+  <div class="col-12" style="font-size:35px;">
+    <h1>ANALYSIS ON NEWLY FUNDED AI COMPANIES</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+   <center><a href="{% url 'DetailCompanyAnalysis1' %}" class="card-title text-dark text-center" style="font-size:25px;">Newly Funded AI Companies in a Specific Country.</a></center>
+</div>
+</div>
+&emsp;
+  <div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailCompanyAnalysis2' %}"  class="card-title text-dark text-center" style="font-size:25px;">Newly Funded AI Companies in Two Countries.</a></center>
+</div>
+</div>
+&emsp; 
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailCompanyAnalysis3' %}"  class="card-title text-dark text-center" style="font-size:25px;">Newly Funded AI Companies in Three Countries.</a></center>
+</div>
+</div>
+&emsp;
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailCompanyAnalysis4' %}"  class="card-title text-dark text-center" style="font-size:25px;">Newly Funded AI Companies in a Country From Starting YearTo Ending Year.</a></center>
+</div>
+</div>
+&emsp;
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailCompanyAnalysis5' %}"  class="card-title text-dark text-center" style="font-size:25px;">Newly Funded AI Companies in Two Countries From Starting Year To Ending Year.</a></center>
+</div>
+</div>
+&emsp;
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailCompanyAnalysis6' %}"  class="card-title text-dark text-center" style="font-size:25px;">World Map Of Newly Funded AI Companies In World In All Years.</a></center>
+</div>
+</div>
+&emsp;
+<div class="col-12">
+  <div class="card-body shadow p-3" style="background-color:#f8b739 ;">
+    <center><a href="{% url 'DetailCompanyAnalysis7' %}"  class="card-title text-dark text-center" style="font-size:25px;">Bargraphs of Newly Funded AI Companies In All Countries.</a></center>
+</div>
+</div>
+&emsp;
+{% endblock %}

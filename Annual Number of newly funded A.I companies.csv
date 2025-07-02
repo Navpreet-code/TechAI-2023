@@ -1,0 +1,625 @@
+Entity,Code,Year,newly_funded_ai_companies
+Australia,Australia,2000,1
+Australia,Australia,2001,3
+Australia,Australia,2002,5
+Australia,Australia,2003,7
+Australia,Australia,2004,9
+Australia,Australia,2005,12
+Australia,Australia,2006,13
+Australia,Australia,2007,15
+Australia,Australia,2008,16
+Australia,Australia,2009,18
+Australia,Australia,2010,19
+Australia,Australia,2011,20
+Australia,Australia,2012,25
+Australia,Australia,2013,30
+Australia,Australia,2014,35
+Australia,Australia,2015,50
+Australia,Australia,2016,45
+Australia,Australia,2017,55
+Australia,Australia,2018,67
+Australia,Australia,2019,87
+Australia,Australia,2020,98
+Australia,Australia,2021,64
+Australia,Australia,2022,56
+Australia,Australia,2023,88
+Bangladesh,Bangladesh,2000,1
+Bangladesh,Bangladesh,2001,3
+Bangladesh,Bangladesh,2002,5
+Bangladesh,Bangladesh,2003,7
+Bangladesh,Bangladesh,2004,9
+Bangladesh,Bangladesh,2005,12
+Bangladesh,Bangladesh,2006,13
+Bangladesh,Bangladesh,2007,15
+Bangladesh,Bangladesh,2008,16
+Bangladesh,Bangladesh,2009,18
+Bangladesh,Bangladesh,2010,19
+Bangladesh,Bangladesh,2011,20
+Bangladesh,Bangladesh,2012,25
+Bangladesh,Bangladesh,2013,30
+Bangladesh,Bangladesh,2014,35
+Bangladesh,Bangladesh,2015,50
+Bangladesh,Bangladesh,2016,45
+Bangladesh,Bangladesh,2017,55
+Bangladesh,Bangladesh,2018,67
+Bangladesh,Bangladesh,2019,87
+Bangladesh,Bangladesh,2020,98
+Bangladesh,Bangladesh,2021,64
+Bangladesh,Bangladesh,2022,56
+Bangladesh,Bangladesh,2023,88
+Canada,Canada,2000,1
+Canada,Canada,2001,3
+Canada,Canada,2002,5
+Canada,Canada,2003,7
+Canada,Canada,2004,9
+Canada,Canada,2005,12
+Canada,Canada,2006,13
+Canada,Canada,2007,15
+Canada,Canada,2008,16
+Canada,Canada,2009,18
+Canada,Canada,2010,19
+Canada,Canada,2011,20
+Canada,Canada,2012,25
+Canada,Canada,2013,30
+Canada,Canada,2014,35
+Canada,Canada,2015,50
+Canada,Canada,2016,45
+Canada,Canada,2017,55
+Canada,Canada,2018,67
+Canada,Canada,2019,87
+Canada,Canada,2020,98
+Canada,Canada,2021,64
+Canada,Canada,2022,56
+Canada,Canada,2023,88
+Denmark,Denmark,2000,1
+Denmark,Denmark,2001,3
+Denmark,Denmark,2002,5
+Denmark,Denmark,2003,7
+Denmark,Denmark,2004,9
+Denmark,Denmark,2005,12
+Denmark,Denmark,2006,13
+Denmark,Denmark,2007,15
+Denmark,Denmark,2008,16
+Denmark,Denmark,2009,18
+Denmark,Denmark,2010,19
+Denmark,Denmark,2011,20
+Denmark,Denmark,2012,25
+Denmark,Denmark,2013,30
+Denmark,Denmark,2014,35
+Denmark,Denmark,2015,50
+Denmark,Denmark,2016,45
+Denmark,Denmark,2017,55
+Denmark,Denmark,2018,67
+Denmark,Denmark,2019,87
+Denmark,Denmark,2020,98
+Denmark,Denmark,2021,64
+Denmark,Denmark,2022,56
+Denmark,Denmark,2023,88
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2000,1
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2001,3
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2002,5
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2003,7
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2004,9
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2005,12
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2006,13
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2007,15
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2008,16
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2009,18
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2010,19
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2011,20
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2012,25
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2013,30
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2014,35
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2015,50
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2016,45
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2017,55
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2018,67
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2019,87
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2020,98
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2021,64
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2022,56
+"Egypt, Arab Rep.","Egypt, Arab Rep.",2023,88
+France,France,2000,1
+France,France,2001,3
+France,France,2002,5
+France,France,2003,7
+France,France,2004,9
+France,France,2005,12
+France,France,2006,13
+France,France,2007,15
+France,France,2008,16
+France,France,2009,18
+France,France,2010,19
+France,France,2011,20
+France,France,2012,25
+France,France,2013,30
+France,France,2014,35
+France,France,2015,50
+France,France,2016,45
+France,France,2017,55
+France,France,2018,67
+France,France,2019,87
+France,France,2020,98
+France,France,2021,64
+France,France,2022,56
+France,France,2023,88
+Greece,Greece,2000,1
+Greece,Greece,2001,3
+Greece,Greece,2002,5
+Greece,Greece,2003,7
+Greece,Greece,2004,9
+Greece,Greece,2005,12
+Greece,Greece,2006,13
+Greece,Greece,2007,15
+Greece,Greece,2008,16
+Greece,Greece,2009,18
+Greece,Greece,2010,19
+Greece,Greece,2011,20
+Greece,Greece,2012,25
+Greece,Greece,2013,30
+Greece,Greece,2014,35
+Greece,Greece,2015,50
+Greece,Greece,2016,45
+Greece,Greece,2017,55
+Greece,Greece,2018,67
+Greece,Greece,2019,87
+Greece,Greece,2020,98
+Greece,Greece,2021,64
+Greece,Greece,2022,56
+Greece,Greece,2023,88
+Hong Kong,Hong Kong,2000,1
+Hong Kong,Hong Kong,2001,3
+Hong Kong,Hong Kong,2002,5
+Hong Kong,Hong Kong,2003,7
+Hong Kong,Hong Kong,2004,9
+Hong Kong,Hong Kong,2005,12
+Hong Kong,Hong Kong,2006,13
+Hong Kong,Hong Kong,2007,15
+Hong Kong,Hong Kong,2008,16
+Hong Kong,Hong Kong,2009,18
+Hong Kong,Hong Kong,2010,19
+Hong Kong,Hong Kong,2011,20
+Hong Kong,Hong Kong,2012,25
+Hong Kong,Hong Kong,2013,30
+Hong Kong,Hong Kong,2014,35
+Hong Kong,Hong Kong,2015,50
+Hong Kong,Hong Kong,2016,45
+Hong Kong,Hong Kong,2017,55
+Hong Kong,Hong Kong,2018,67
+Hong Kong,Hong Kong,2019,87
+Hong Kong,Hong Kong,2020,98
+Hong Kong,Hong Kong,2021,64
+Hong Kong,Hong Kong,2022,56
+Hong Kong,Hong Kong,2023,88
+India,India,2000,1
+India,India,2001,3
+India,India,2002,5
+India,India,2003,7
+India,India,2004,9
+India,India,2005,12
+India,India,2006,13
+India,India,2007,15
+India,India,2008,16
+India,India,2009,18
+India,India,2010,19
+India,India,2011,20
+India,India,2012,25
+India,India,2013,30
+India,India,2014,35
+India,India,2015,50
+India,India,2016,45
+India,India,2017,55
+India,India,2018,67
+India,India,2019,87
+India,India,2020,98
+India,India,2021,64
+India,India,2022,56
+India,India,2023,88
+Japan,Japan,2000,1
+Japan,Japan,2001,3
+Japan,Japan,2002,5
+Japan,Japan,2003,7
+Japan,Japan,2004,9
+Japan,Japan,2005,12
+Japan,Japan,2006,13
+Japan,Japan,2007,15
+Japan,Japan,2008,16
+Japan,Japan,2009,18
+Japan,Japan,2010,19
+Japan,Japan,2011,20
+Japan,Japan,2012,25
+Japan,Japan,2013,30
+Japan,Japan,2014,35
+Japan,Japan,2015,50
+Japan,Japan,2016,45
+Japan,Japan,2017,55
+Japan,Japan,2018,67
+Japan,Japan,2019,87
+Japan,Japan,2020,98
+Japan,Japan,2021,64
+Japan,Japan,2022,56
+Japan,Japan,2023,88
+Korea,Korea,2000,1
+Korea,Korea,2001,3
+Korea,Korea,2002,5
+Korea,Korea,2003,7
+Korea,Korea,2004,9
+Korea,Korea,2005,12
+Korea,Korea,2006,13
+Korea,Korea,2007,15
+Korea,Korea,2008,16
+Korea,Korea,2009,18
+Korea,Korea,2010,19
+Korea,Korea,2011,20
+Korea,Korea,2012,25
+Korea,Korea,2013,30
+Korea,Korea,2014,35
+Korea,Korea,2015,50
+Korea,Korea,2016,45
+Korea,Korea,2017,55
+Korea,Korea,2018,67
+Korea,Korea,2019,87
+Korea,Korea,2020,98
+Korea,Korea,2021,64
+Korea,Korea,2022,56
+Korea,Korea,2023,88
+Malaysia,Malaysia,2000,1
+Malaysia,Malaysia,2001,3
+Malaysia,Malaysia,2002,5
+Malaysia,Malaysia,2003,7
+Malaysia,Malaysia,2004,9
+Malaysia,Malaysia,2005,12
+Malaysia,Malaysia,2006,13
+Malaysia,Malaysia,2007,15
+Malaysia,Malaysia,2008,16
+Malaysia,Malaysia,2009,18
+Malaysia,Malaysia,2010,19
+Malaysia,Malaysia,2011,20
+Malaysia,Malaysia,2012,25
+Malaysia,Malaysia,2013,30
+Malaysia,Malaysia,2014,35
+Malaysia,Malaysia,2015,50
+Malaysia,Malaysia,2016,45
+Malaysia,Malaysia,2017,55
+Malaysia,Malaysia,2018,67
+Malaysia,Malaysia,2019,87
+Malaysia,Malaysia,2020,98
+Malaysia,Malaysia,2021,64
+Malaysia,Malaysia,2022,56
+Malaysia,Malaysia,2023,88
+New Zealand,New Zealand,2000,1
+New Zealand,New Zealand,2001,3
+New Zealand,New Zealand,2002,5
+New Zealand,New Zealand,2003,7
+New Zealand,New Zealand,2004,9
+New Zealand,New Zealand,2005,12
+New Zealand,New Zealand,2006,13
+New Zealand,New Zealand,2007,15
+New Zealand,New Zealand,2008,16
+New Zealand,New Zealand,2009,18
+New Zealand,New Zealand,2010,19
+New Zealand,New Zealand,2011,20
+New Zealand,New Zealand,2012,25
+New Zealand,New Zealand,2013,30
+New Zealand,New Zealand,2014,35
+New Zealand,New Zealand,2015,50
+New Zealand,New Zealand,2016,45
+New Zealand,New Zealand,2017,55
+New Zealand,New Zealand,2018,67
+New Zealand,New Zealand,2019,87
+New Zealand,New Zealand,2020,98
+New Zealand,New Zealand,2021,64
+New Zealand,New Zealand,2022,56
+New Zealand,New Zealand,2023,88
+Portugal,Portugal,2000,1
+Portugal,Portugal,2001,3
+Portugal,Portugal,2002,5
+Portugal,Portugal,2003,7
+Portugal,Portugal,2004,9
+Portugal,Portugal,2005,12
+Portugal,Portugal,2006,13
+Portugal,Portugal,2007,15
+Portugal,Portugal,2008,16
+Portugal,Portugal,2009,18
+Portugal,Portugal,2010,19
+Portugal,Portugal,2011,20
+Portugal,Portugal,2012,25
+Portugal,Portugal,2013,30
+Portugal,Portugal,2014,35
+Portugal,Portugal,2015,50
+Portugal,Portugal,2016,45
+Portugal,Portugal,2017,55
+Portugal,Portugal,2018,67
+Portugal,Portugal,2019,87
+Portugal,Portugal,2020,98
+Portugal,Portugal,2021,64
+Portugal,Portugal,2022,56
+Portugal,Portugal,2023,88
+Russia,Russia,2000,1
+Russia,Russia,2001,3
+Russia,Russia,2002,5
+Russia,Russia,2003,7
+Russia,Russia,2004,9
+Russia,Russia,2005,12
+Russia,Russia,2006,13
+Russia,Russia,2007,15
+Russia,Russia,2008,16
+Russia,Russia,2009,18
+Russia,Russia,2010,19
+Russia,Russia,2011,20
+Russia,Russia,2012,25
+Russia,Russia,2013,30
+Russia,Russia,2014,35
+Russia,Russia,2015,50
+Russia,Russia,2016,45
+Russia,Russia,2017,55
+Russia,Russia,2018,67
+Russia,Russia,2019,87
+Russia,Russia,2020,98
+Russia,Russia,2021,64
+Russia,Russia,2022,56
+Russia,Russia,2023,88
+Singapore,Singapore,2000,1
+Singapore,Singapore,2001,3
+Singapore,Singapore,2002,5
+Singapore,Singapore,2003,7
+Singapore,Singapore,2004,9
+Singapore,Singapore,2005,12
+Singapore,Singapore,2006,13
+Singapore,Singapore,2007,15
+Singapore,Singapore,2008,16
+Singapore,Singapore,2009,18
+Singapore,Singapore,2010,19
+Singapore,Singapore,2011,20
+Singapore,Singapore,2012,25
+Singapore,Singapore,2013,30
+Singapore,Singapore,2014,35
+Singapore,Singapore,2015,50
+Singapore,Singapore,2016,45
+Singapore,Singapore,2017,55
+Singapore,Singapore,2018,67
+Singapore,Singapore,2019,87
+Singapore,Singapore,2020,98
+Singapore,Singapore,2021,64
+Singapore,Singapore,2022,56
+Singapore,Singapore,2023,88
+Sweden,Sweden,2000,1
+Sweden,Sweden,2001,3
+Sweden,Sweden,2002,5
+Sweden,Sweden,2003,7
+Sweden,Sweden,2004,9
+Sweden,Sweden,2005,12
+Sweden,Sweden,2006,13
+Sweden,Sweden,2007,15
+Sweden,Sweden,2008,16
+Sweden,Sweden,2009,18
+Sweden,Sweden,2010,19
+Sweden,Sweden,2011,20
+Sweden,Sweden,2012,25
+Sweden,Sweden,2013,30
+Sweden,Sweden,2014,35
+Sweden,Sweden,2015,50
+Sweden,Sweden,2016,45
+Sweden,Sweden,2017,55
+Sweden,Sweden,2018,67
+Sweden,Sweden,2019,87
+Sweden,Sweden,2020,98
+Sweden,Sweden,2021,64
+Sweden,Sweden,2022,56
+Sweden,Sweden,2023,88
+Thailand,Thailand,2000,1
+Thailand,Thailand,2001,3
+Thailand,Thailand,2002,5
+Thailand,Thailand,2003,7
+Thailand,Thailand,2004,9
+Thailand,Thailand,2005,12
+Thailand,Thailand,2006,13
+Thailand,Thailand,2007,15
+Thailand,Thailand,2008,16
+Thailand,Thailand,2009,18
+Thailand,Thailand,2010,19
+Thailand,Thailand,2011,20
+Thailand,Thailand,2012,25
+Thailand,Thailand,2013,30
+Thailand,Thailand,2014,35
+Thailand,Thailand,2015,50
+Thailand,Thailand,2016,45
+Thailand,Thailand,2017,55
+Thailand,Thailand,2018,67
+Thailand,Thailand,2019,87
+Thailand,Thailand,2020,98
+Thailand,Thailand,2021,64
+Thailand,Thailand,2022,56
+Thailand,Thailand,2023,88
+Ukraine,Ukraine,2000,1
+Ukraine,Ukraine,2001,3
+Ukraine,Ukraine,2002,5
+Ukraine,Ukraine,2003,7
+Ukraine,Ukraine,2004,9
+Ukraine,Ukraine,2005,12
+Ukraine,Ukraine,2006,13
+Ukraine,Ukraine,2007,15
+Ukraine,Ukraine,2008,16
+Ukraine,Ukraine,2009,18
+Ukraine,Ukraine,2010,19
+Ukraine,Ukraine,2011,20
+Ukraine,Ukraine,2012,25
+Ukraine,Ukraine,2013,30
+Ukraine,Ukraine,2014,35
+Ukraine,Ukraine,2015,50
+Ukraine,Ukraine,2016,45
+Ukraine,Ukraine,2017,55
+Ukraine,Ukraine,2018,67
+Ukraine,Ukraine,2019,87
+Ukraine,Ukraine,2020,98
+Ukraine,Ukraine,2021,64
+Ukraine,Ukraine,2022,56
+Ukraine,Ukraine,2023,88
+United States,United States,2000,1
+United States,United States,2001,3
+United States,United States,2002,5
+United States,United States,2003,7
+United States,United States,2004,9
+United States,United States,2005,12
+United States,United States,2006,13
+United States,United States,2007,15
+United States,United States,2008,16
+United States,United States,2009,18
+United States,United States,2010,19
+United States,United States,2011,20
+United States,United States,2012,25
+United States,United States,2013,30
+United States,United States,2014,35
+United States,United States,2015,50
+United States,United States,2016,45
+United States,United States,2017,55
+United States,United States,2018,67
+United States,United States,2019,87
+United States,United States,2020,98
+United States,United States,2021,64
+United States,United States,2022,56
+United States,United States,2023,88
+South Africa,South Africa,2000,1
+South Africa,South Africa,2001,3
+South Africa,South Africa,2002,5
+South Africa,South Africa,2003,7
+South Africa,South Africa,2004,9
+South Africa,South Africa,2005,12
+South Africa,South Africa,2006,13
+South Africa,South Africa,2007,15
+South Africa,South Africa,2008,16
+South Africa,South Africa,2009,18
+South Africa,South Africa,2010,19
+South Africa,South Africa,2011,20
+South Africa,South Africa,2012,25
+South Africa,South Africa,2013,30
+South Africa,South Africa,2014,35
+South Africa,South Africa,2015,50
+South Africa,South Africa,2016,45
+South Africa,South Africa,2017,55
+South Africa,South Africa,2018,67
+South Africa,South Africa,2019,87
+South Africa,South Africa,2020,98
+South Africa,South Africa,2021,64
+South Africa,South Africa,2022,56
+South Africa,South Africa,2023,88
+Italy,Italy,2000,1
+Italy,Italy,2001,3
+Italy,Italy,2002,5
+Italy,Italy,2003,7
+Italy,Italy,2004,9
+Italy,Italy,2005,12
+Italy,Italy,2006,13
+Italy,Italy,2007,15
+Italy,Italy,2008,16
+Italy,Italy,2009,18
+Italy,Italy,2010,19
+Italy,Italy,2011,20
+Italy,Italy,2012,25
+Italy,Italy,2013,30
+Italy,Italy,2014,35
+Italy,Italy,2015,50
+Italy,Italy,2016,45
+Italy,Italy,2017,55
+Italy,Italy,2018,67
+Italy,Italy,2019,87
+Italy,Italy,2020,98
+Italy,Italy,2021,64
+Italy,Italy,2022,56
+Italy,Italy,2023,88
+Norway,Norway,2000,1
+Norway,Norway,2001,3
+Norway,Norway,2002,5
+Norway,Norway,2003,7
+Norway,Norway,2004,9
+Norway,Norway,2005,12
+Norway,Norway,2006,13
+Norway,Norway,2007,15
+Norway,Norway,2008,16
+Norway,Norway,2009,18
+Norway,Norway,2010,19
+Norway,Norway,2011,20
+Norway,Norway,2012,25
+Norway,Norway,2013,30
+Norway,Norway,2014,35
+Norway,Norway,2015,50
+Norway,Norway,2016,45
+Norway,Norway,2017,55
+Norway,Norway,2018,67
+Norway,Norway,2019,87
+Norway,Norway,2020,98
+Norway,Norway,2021,64
+Norway,Norway,2022,56
+Norway,Norway,2023,88
+Netherlands,Netherlands,2000,1
+Netherlands,Netherlands,2001,3
+Netherlands,Netherlands,2002,5
+Netherlands,Netherlands,2003,7
+Netherlands,Netherlands,2004,9
+Netherlands,Netherlands,2005,12
+Netherlands,Netherlands,2006,13
+Netherlands,Netherlands,2007,15
+Netherlands,Netherlands,2008,16
+Netherlands,Netherlands,2009,18
+Netherlands,Netherlands,2010,19
+Netherlands,Netherlands,2011,20
+Netherlands,Netherlands,2012,25
+Netherlands,Netherlands,2013,30
+Netherlands,Netherlands,2014,35
+Netherlands,Netherlands,2015,50
+Netherlands,Netherlands,2016,45
+Netherlands,Netherlands,2017,55
+Netherlands,Netherlands,2018,67
+Netherlands,Netherlands,2019,87
+Netherlands,Netherlands,2020,98
+Netherlands,Netherlands,2021,64
+Netherlands,Netherlands,2022,56
+Netherlands,Netherlands,2023,88
+Mexico,Mexico,2000,1
+Mexico,Mexico,2001,3
+Mexico,Mexico,2002,5
+Mexico,Mexico,2003,7
+Mexico,Mexico,2004,9
+Mexico,Mexico,2005,12
+Mexico,Mexico,2006,13
+Mexico,Mexico,2007,15
+Mexico,Mexico,2008,16
+Mexico,Mexico,2009,18
+Mexico,Mexico,2010,19
+Mexico,Mexico,2011,20
+Mexico,Mexico,2012,25
+Mexico,Mexico,2013,30
+Mexico,Mexico,2014,35
+Mexico,Mexico,2015,50
+Mexico,Mexico,2016,45
+Mexico,Mexico,2017,55
+Mexico,Mexico,2018,67
+Mexico,Mexico,2019,87
+Mexico,Mexico,2020,98
+Mexico,Mexico,2021,64
+Mexico,Mexico,2022,56
+Mexico,Mexico,2023,88
+Zambia,Zambia,2000,1
+Zambia,Zambia,2001,3
+Zambia,Zambia,2002,5
+Zambia,Zambia,2003,7
+Zambia,Zambia,2004,9
+Zambia,Zambia,2005,12
+Zambia,Zambia,2006,13
+Zambia,Zambia,2007,15
+Zambia,Zambia,2008,16
+Zambia,Zambia,2009,18
+Zambia,Zambia,2010,19
+Zambia,Zambia,2011,20
+Zambia,Zambia,2012,25
+Zambia,Zambia,2013,30
+Zambia,Zambia,2014,35
+Zambia,Zambia,2015,50
+Zambia,Zambia,2016,45
+Zambia,Zambia,2017,55
+Zambia,Zambia,2018,67
+Zambia,Zambia,2019,87
+Zambia,Zambia,2020,98
+Zambia,Zambia,2021,64
+Zambia,Zambia,2022,56
+Zambia,Zambia,2023,88

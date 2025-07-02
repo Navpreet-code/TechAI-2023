@@ -1,0 +1,28 @@
+Entity,Code,Year,top5_accuracy,imagenet_extra_training_data
+Advprop (efficientnet-b8),,2019,97.3,Without Extra Training Data
+Alexnet,,2012,84.6,Without Extra Training Data
+Alexnet - 7cnns + imagenet 2011 pretrain,,2012,84.6,With Extra Training Data
+Bit-l (resnet),,2019,98.46,With Extra Training Data
+Coatnet-7,,2021,,With Extra Training Data
+Efficientnet-l2-475 (sam),,2020,,With Extra Training Data
+Five base + five hires,,2013,,Without Extra Training Data
+Fix-efficientnet-b8 (maxup + cutmix),,2020,,Without Extra Training Data
+Fixefficientnet-b8,,2020,97.6,Without Extra Training Data
+Florence-coswim-h,,2021,99.02,With Extra Training Data
+Gpipe,,2018,,Without Extra Training Data
+"Inception resnet v2 + multi-crop, multi-scale",,2016,96.3,Without Extra Training Data
+Inception v3,,2015,94.4,Without Extra Training Data
+Inception v3*,,2015,,With Extra Training Data
+Jft-300m finetuning,,2017,94.7,With Extra Training Data
+"Mae (vit-h, 448)",,2021,,Without Extra Training Data
+Nasnet-a(6),,2017,96.2,Without Extra Training Data
+Nfnet-f6 w/ sam,,2021,97.9,Without Extra Training Data
+Noisystudent (efficientnet-l2),,2020,98.7,With Extra Training Data
+Overfeat - 7 accurate models,,2013,86.8,Without Extra Training Data
+Pnasnet-5,,2017,,Without Extra Training Data
+Resnet-101,,2015,93.95,With Extra Training Data
+Resnext-101 32x16d,,2018,97.2,Without Extra Training Data
+Resnext-101 32x48d,,2018,97.6,With Extra Training Data
+Resnext-101 64x4 + multi-scale dense testing,,2016,,Without Extra Training Data
+Vgg-19,,2014,92,Without Extra Training Data
+Vgg-19*,,2014,,With Extra Training Data

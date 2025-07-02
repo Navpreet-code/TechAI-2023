@@ -1,0 +1,22 @@
+{%extends 'Base.html' %}
+{%block content%}
+{%load static%}
+
+<style>body {overflow-x: hidden;}</style>
+<div class="container" style="">
+	<div class="row">
+
+<div class="col-md-12 mt-5 text-center ">
+	<div class="card shadow " style="width: 100%; ">
+  <img src="{{data.Image.url}}" class="card-img-top" alt="images" height="400px">
+  <div class="card-body">
+    <h5 class="card-title">{{data.Title}}</h5>
+    <p class="card-text">{{data.Description}}</p>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+<br><br>
+{% endblock %}

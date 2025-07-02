@@ -1,0 +1,61 @@
+{%extends 'Sidebar.html' %}
+{%block content%}
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="{%static 'css/bootstrap.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{%static 'icofont/icofont.min.css' %}">
+	  <style type="text/css">
+	  	body {overflow-x: hidden;}
+    .a{text-decoration: none ;}
+  </style>
+</head>
+<body>
+	<div class="container mt-5">
+		<div class="row">
+				<div class="col-6">
+			<form method="POST" action="" enctype="multipart/form-data" class="b1 p-5 mt-5 shadow-lg">
+				{% csrf_token %}
+			<h1 class="mb-4 text-center" style="color: #f8b739;">User Profile</h1>
+			{% if msg == 'success' %}
+			<center><img src="{{user.Profile.url}}" class="" height="200px" width="180px"></center>
+			{% else %}
+			<img src="{{user.Profile.url}}" class="" height="200px" width="180px"></center>
+			{% endif %}
+
+			<br>
+				<center><input type="file" id="file"  name="file1" class="mt-5 form-control">
+					<div id="file-selected-message" style="display: none; margin-left: 150px;">
+						<p style="padding-top: 20px;">File selected:&nbsp; <span id="file-name"></span></p>
+					</div>
+
+				<button type="submit" class="mt-2 mb-5 ps-5 pe-5 pt-2 pb-2 bg-primary text-light"
+				 >UPLOAD</button>
+				</form>
+				</div>
+			
+<div class="col-6 b1 p-5 mt-5 shadow-lg">
+	<div class="row">
+	<h1 class="mb-4 text-center" style="color:#f8b739;">Personal Information.</h1>
+	<div class="col-6 mt-4">
+		<p><b>Name:</b></p>
+		<p><b>Age:</b></p>
+		<p><b>DOB:</b></p>
+		<p><b>Gender:</b></p>
+		<p><b>PhoneNo:</b></p>
+	</div>
+
+	<div class="col-6 mt-4 text-center">
+		<p>{{user.Name}}</p>
+		<p>{{user.Age}}</p>
+		<p>{{user.DOB}}</p>
+		<p>{{user.Gender}}</p>
+		<p>{{user.PhoneNo}}</p>
+	</div>
+</body>
+</html>
+{%endblock %}

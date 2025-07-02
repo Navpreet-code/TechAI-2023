@@ -1,0 +1,25 @@
+{%extends 'sidebar.html' %}
+{%block content%}
+{%load static%}
+
+<style>body {overflow-x: hidden;}</style>
+<div class="container" style="">
+	<div class="row">
+
+
+<div class="col-md-12 mt-5">
+	
+  <img src="{{i.tool_Image.url}}" height="210px">
+  <div class="card-body">
+    <h5 class="card-title">{{i.tool_Name}}</h5>
+    <p class="card-text">{{i.tool_Description}}</p>
+    <a href="{{i.tool_link}}" target="_blank" class="btn btn-primary">View Website</a>
+  </div>
+</div>
+</div>
+
+
+</div>
+</div>
+
+{% endblock %}

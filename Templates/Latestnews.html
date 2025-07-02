@@ -1,0 +1,33 @@
+{%extends 'Base.html' %}
+{%block content%}
+{%load static%}
+
+<style>body {overflow-x: hidden;}</style>
+ <div class="row  pt-5 pb-5 text-center text-light" style="background-image: url({%static 'images/banner-bg.png' %}); font-family:30px green grotesk;">
+  <div class="col-12">
+    <h1>LATEST NEWS</h1>
+    <p>Home / Latest News</p>
+  </div>
+</div>
+
+
+<div class="container" style="">
+	<div class="row">
+{% for i in k %}
+
+<div class="col-md-4 mt-5">
+	<div class="card shadow" style="width: 22rem;">
+  <img src="{{i.urlToImage}}" class="card-img-top" alt="images" height="210px" width="120px">
+  <div class="card-body">
+    <h5 class="card-title" title="{{i.title}}">{{i.title|truncatechars:60}}</h5> 
+    <p class="card-text  text-dark text-center">{{i.content|truncatechars:150}}</p>
+    <center><a href="{{i.url}}" target="_blank" class="btn btn-lg rounded-pill ps-5 pe-5 b1" style="background-color:#8fffec"><b>View Detail</b></a></center>
+  </div>
+</div>
+</div>
+{% endfor %}
+
+</div>
+</div>
+<br><br>
+{% endblock %}
